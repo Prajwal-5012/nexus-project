@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sovereign Savors</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="https://kit.fontawesome.com/9d8bdeb20c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-box">
+            <h2>Signup</h2>
+            <form action="#" id="form" method="post" onsubmit="return validateInputs()">
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-user"></i></span>
+                    <input type="text" name="username" id="username" required>
+                    <label>Name</label>
+                    <div class="error"></div>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="text" name="email" id="email" required>
+                    <label>Email</label>
+                    <div class="error"></div>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" name="password" id="password" required>
+                    <label>Password</label>
+                    <div class="error"></div>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                    <input type="text" name="phone" id="phone" required>
+                    <label>Mobile Number</label>
+                    <div class="error"></div>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox" required>I agree to terms & conditions</label>
+                </div>
+                <button type="submit" class="custom-btn">Signup</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="../login/login.html" class="register-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>

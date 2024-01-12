@@ -1,0 +1,176 @@
+
+#Home{
+    background-image: url('assets/Images/Restaurant/Restaurant-1.jpg');
+    background-size: cover;
+    height: 720px;
+}
+
+
+.title-heading{
+    font-size: 5rem;
+}
+
+.title-content{
+    color: white;
+    margin-top: 10%;
+    margin-left: 25%;
+    letter-spacing: 1.7px
+}
+.navbar-brand {
+    color: #ffffff;
+    padding-left: 1%;
+    padding-top: 1%;
+    font-size: 1.75rem;
+}
+
+.collapse .navbar-collapse{
+    margin-bottom: 10px;
+}
+
+.nav-item{
+    margin-left: 10px;
+}
+
+.nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.custom-btn{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #EBDB90;
+}
+
+.user-button{
+    color: black;
+    border-radius: 30px;
+    border: none;
+    width: 80px;
+    height: 30px;
+    margin-right: 10px;
+    letter-spacing: 0.05rem;
+    padding-left: 8px;
+    padding-bottom: 2.5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+
+}
+
+.custom-btn.btn-reservation{
+    background-color: #DA9621;
+    border: none;
+    width: 180px;
+    height: 45px;
+    font-size: 24px;
+    padding-bottom: 2px;
+    letter-spacing: 1.6px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+#Menu{
+    background-color: #403D39;
+    color: #ffffff;
+    padding-left: 10%;
+    padding-right: 1.5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+.menu-title{
+    margin-left: 42%;
+    margin-right: 43%;
+    margin-bottom: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.menu-subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.row-menu{
+    padding-top: 0.5%;
+    padding-bottom: 1.2%;
+    margin-bottom: 2%;
+}
+.Menu-img{
+    height: 200px;
+    width: 250px;
+    margin-bottom: 1rem;
+}
+
+.menu-description{
+    margin-top: 0.5rem;
+    width:250px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.about-img{
+    height: 450px;
+    width: 100%;
+}
+
+#About{
+   margin: 0;;
+   border: 0;
+   padding: 0;
+   padding-bottom:7rem;
+   background-color: #403D39;
+   color: #ffffff;
+
+}
+
+.col-md-6.about-content{
+    margin-top: 2.5%;
+    margin-left: 0px;
+    padding-left: 13%;
+    padding-right: 13%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.about-heading{
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+#footer{
+    color:#ffffff;
+    background-color: #AE1825;
+    padding-top: 1.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+.col-md-4{
+    padding-top: 1.5rem;
+}
+.icon{
+    color:#EBDB90;
+    margin-left: 0.35rem;
+}
+
+.Timings{
+    margin-top:2rem;
+}
+a {
+    text-decoration: none !important;
+}
+
+.footer-content{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+}
+
+@media only screen and (min-width: 1024px){
+    .title-content1 {
+        margin-left: 18%;
+    }
+    
+    .title-content3 {
+        margin-left: 21%;
+    }
+}
